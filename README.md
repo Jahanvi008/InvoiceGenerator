@@ -5,7 +5,7 @@ This is a web application built with React.js and Vite, designed to help users g
 
 ## Project Background
 
-This project was initiated during the Global Hack Week: Open Source, where developers from around the world collaborate on open-source projects. The main thought behing this project was to use as many open sources as possible to create something impactful. I created this Invoice Generator to address the invoicing needs of freelancers and service providers, making it easier for them to create clear and professional invoices for their clients.
+This project was initiated during the Global Hack Week: Open Source, where developers from around the world collaborate on open-source projects. The main thought behind this project was to use as many open sources as possible to create something impactful. I created this Invoice Generator to address the invoicing needs of freelancers and service providers, making it easier for them to create clear and professional invoices for their clients.
 
 
 ## Goal and Use Case
