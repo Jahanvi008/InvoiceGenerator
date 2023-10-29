@@ -3,6 +3,11 @@ https://all-invoice-generator.netlify.app/
 
 This is a web application built with React.js and Vite, designed to help users generate invoices for items and services. It offers a user-friendly interface for adding company and customer details, creating itemized invoices, and generating downloadable PDF invoices. The app is styled with Tailwind CSS and DaisyUI, utilizes React Router for page navigation, and uses ag-Grid React for displaying invoice details. It also integrates jspdf and jspdf-autotable for PDF generation and enforces code quality standards with ESLint and Prettier. Deployment is made easy with Netlify.
 
+## Project Background
+
+This project was initiated during the Global Hack Week: Open Source, where developers from around the world collaborate on open-source projects. The main thought behing this project was to use as many open sources as possible to create something impactful. I created this Invoice Generator to address the invoicing needs of freelancers and service providers, making it easier for them to create clear and professional invoices for their clients.
+
+
 ## Goal and Use Case
 
 The primary goal of this React Invoice Generator is to provide a straightforward and efficient tool for generating invoices. The specific use case this app targets is to make charges clear for freelancers and service providers who often bill clients based on the number of hours worked and their charge per hour. This app enables users to:

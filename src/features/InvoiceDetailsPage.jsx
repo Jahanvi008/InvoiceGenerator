@@ -3,7 +3,7 @@ import InvoiceInfoHeader from "./InvoiceInfoHeader";
 import InvoiceItemsTable from "./InvoiceItemsTable";
 import InvoicePDF from "./InvoicePDF";
 
-import TempInvoiceDetailsOutput from "./Temp/TempInvoiceDetailsOutput";
+// import TempInvoiceDetailsOutput from "./Temp/TempInvoiceDetailsOutput";
 
 const InvoiceDetailsPage = () => {
   const [infoHeaderData, setInfoHeaderData] = useState({
@@ -68,5 +68,3 @@ const InvoiceDetailsPage = () => {
 };
 
 export default InvoiceDetailsPage;
-
-

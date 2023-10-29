@@ -48,7 +48,7 @@ const InvoiceItemsTable = ({ onRowDataChange }) => {
       headerName: "Quantity/Hours",
       field: "quantity",
       editable: true,
-      width: 250,
+      width: 150,
     },
     {
       headerName: "Price/Rate per Hour",
@@ -57,9 +57,15 @@ const InvoiceItemsTable = ({ onRowDataChange }) => {
       width: 150,
     },
     {
-      headerName: "Total",
-      field: "total",
-      valueGetter: "data.quantity * data.price",
+      headerName: "Tax Deduction(in %)",
+      field: "tax",
+      editable: true,
+      width: 150,
+    },
+    {
+      headerName: "Subtotal(After Tax)",
+      field: "subtotal",
+      valueGetter: "(data.quantity * data.price) * (1 - (data.tax/100))",
       width: 150,
     },
     {
@@ -108,7 +114,7 @@ const InvoiceItemsTable = ({ onRowDataChange }) => {
       {/* AgGrid Table Start */}
       <div
         className="ag-theme-alpine-dark"
-        style={{ height: 500, width: "90vw" }}
+        style={{ height: 500, width: "70vw" }}
       >
         <AgGridReact
           ref={gridRef}
